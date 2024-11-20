@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#showLess").hide();
+    $(".extra").hide();
+    $("#showMore").click(function(){
+        $(".extra").toggle();
+        $("#showMore").hide();
+        $("#showLess").show();
+    });
+    $("#showLess").click(function(){
+        $(".extra").toggle();
+        $("#showMore").show();
+        $("#showLess").hide();
+    });
+});

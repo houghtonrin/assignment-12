@@ -1,0 +1,58 @@
+/**Browser reet**/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**Mobile Design**/
+img{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    filter:blur(5px);
+}
+
+img:hover{
+    filter:blur(0px);
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h1{
+    background-color: pink;
+    padding: 1em;
+}
+
+h3{
+    background-color: #aa3332;
+}
+
+@media(min-width: 1024px){
+    img{
+        width: 95%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: .5em;
+        filter:blur(3px);
+    }
+
+    h3{
+        background-color: aqua;
+    }
+
+    .card{
+        display: flexbox;
+        justify-content: space-around;
+    }
+    
+    
+}
